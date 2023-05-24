@@ -10,7 +10,7 @@ public class Main {
                 System.out.print(prompt);
                 int val = pergunte.nextInt();
                 while (val < n1 || val > n2) {
-                    System.out.println("Digite novamente: ");
+                    System.out.print("Digite novamente: ");
                     val = pergunte.nextInt();
                 }
                 return val;
